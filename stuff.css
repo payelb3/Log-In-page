@@ -1,0 +1,107 @@
+#one{
+  border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 12px;
+    border-bottom: 3px solid white;
+}
+
+
+two{
+  margin-top: 80px;
+
+}
+
+
+body{
+  /* background-color: #ef476f; */
+  background-image: url("img/b.jpg");
+  /* background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2014/02/27/280240/2fe9b46bef5fd38245d9492ed75ef7c6.jpg"); */
+  font-family: 'Acme', sans-serif;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
+
+
+#sub{
+
+  width: 200px;
+    background: none;
+    border: 2px solid #ffffff;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 17px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    font-family: 'Kreon', serif;
+    /* transition: 0.5s; */
+
+}
+
+
+.jk{
+  width: 400px;
+  height: 250px;
+  align-self:center;
+  align-content: center;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  transition-duration: 5s;
+  background-color:none;
+  transform-style: flat;
+ font-family: 'Kreon', serif;
+
+
+}
+
+#log{
+    font-size: 2.em;
+    color: white;
+    border:-bottom: 6px solid black;
+    margin: -top: 122px;
+}
+
+
+a{
+  color: white;
+}
+
+#ll{
+    margin-top: -55px ;
+    border-bottom: 3px solid white;
+    text-align: center;
+    border-left: 0px;
+    border-right: 0px;
+    width: 200px;
+    height: 40px;
+}
+
+
+#l{
+  color:white;
+}
+input::placeholder {
+  color: white;
+  font-size: 1em;
+}
+button:focus{
+    background:olive;
+}
+.active{
+         background:red;
+    }
+ button.btn:active{
+     background:red;
+ }
+ #sub:hover{
+   background: white;
+   color: black;
+   font-family: 'Kreon', serif;
+   /* transition-delay: 0.5s; */
+ }
